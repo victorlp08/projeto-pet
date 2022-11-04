@@ -1,0 +1,19 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+    --cor-nav: #612674;
+    --cor-hovernav: #7c3792;
+    --cor-button: #58c4c4;
+    --cor-hoverbutton:#37a0a0;
+    --cor-fundo: #f6f6f6;
+    --cor-title: #612674;
+    --cor-subtitle: #a87bb7;
+    --cor-footer: #25303e;
+    --cor-footertitle: #83969f;
+    --cor-menushare: #303d4c;
+
+    --font-padrao: sans-serif;
+    --font-oxygen: 'Oxygen', sans-serif;
+}
