@@ -17,3 +17,116 @@
     --font-padrao: sans-serif;
     --font-oxygen: 'Oxygen', sans-serif;
 }
+
+* {
+    font-family: var(--font-padrao);
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 , h6 {
+    font-family: var(--font-oxygen);
+}
+
+.top-nav {
+    background-color: var(--cor-nav);
+}
+
+.top-nav-ul {
+    text-align: center;
+    padding: .5em 0;
+}
+
+.top-nav-ul li {
+    padding: .8em;
+}
+
+.top-nav-ul a {
+    font-family: var(--font-oxygen);
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav-ul li:hover {
+    background-color: var(--cor-hovernav);
+}
+
+.top-header {
+    background-color: var(--cor-fundo);
+    padding: .8em;
+}
+
+.top-header-title {
+    color: var(--cor-title);
+    font-size: 1.375em;
+    padding: .8em;
+}
+
+.top-header-subtitle {
+    color: var(--cor-subtitle);
+    font-size: 1em;
+    padding: .8em;
+}
+
+.button {
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 0.9em 2em;
+    background-color: var(--cor-button);
+    border-radius: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(--cor-hoverbutton);
+}
+
+.top-main {
+    background-color: var(--cor-fundo);
+    padding: 2em;
+}
+
+.top-horario {
+    padding: 2em;
+}
+
+.icon-stopwatch {
+    color: var(--cor-nav);
+    font-size: 5em;
+}
+
+.top-horario-title {
+    font-size: 1.2em;
+    color: var(--cor-title);
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.top-horario-p {
+    color: var(--cor-menushare);
+    line-height: 1.3em
+}
+
+.icon-location2 {
+    color: var(--cor-nav);
+    font-size: 5em;
+}
+
+.top-localizacao-title {
+    font-size: 1.2em;
+    color: var(--cor-title);
+    text-transform: uppercase;
+    padding: .5em;
+}
+
+.top-localizacao-map {
+    width: 100%;
+    height: 15em;
+    border-radius: .5em;
+}
+
+
