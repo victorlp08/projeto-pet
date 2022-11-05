@@ -129,4 +129,38 @@ h1, h2, h3, h4, h5 , h6 {
     border-radius: .5em;
 }
 
+.hidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    opacity: 0;
+}
+
+.footer {
+    background-color: var(--cor-footer);
+    color: var(--cor-footertitle);
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.3em;
+    padding: .5em;
+}
+
+.footer-ul {
+    background-color: var(--cor-menushare);
+    padding: .5em;
+}
+
+.footer-ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.footer-ul a {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+}
 
